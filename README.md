@@ -20,15 +20,16 @@ Como rango inicial se tomo aproximadamente desde el escaneo 15 que es el momento
 
 ### *Prueba 1*
 <img width="376" alt="untitled1" src="https://github.com/user-attachments/assets/2ad2ea9f-8508-4c74-9ad5-66e7a306e564" />
-<img width="376"  alt="untitled2_1" src="https://github.com/user-attachments/assets/d01a5251-622d-4ca4-80b6-af07b347e97f" />
+<img width="350"  alt="untitled2_1" src="https://github.com/user-attachments/assets/d01a5251-622d-4ca4-80b6-af07b347e97f" />
 
 ### *Prueba 2*
 <img width="376" alt="untitled3" src="https://github.com/user-attachments/assets/4b8ce86d-dc2b-4408-9409-528488659670" />
-<img width="376"  alt="image" src="https://github.com/user-attachments/assets/3fa9951e-c251-45f2-a4cf-a193ddf05cf4" />
+<img width="350"  alt="image" src="https://github.com/user-attachments/assets/3fa9951e-c251-45f2-a4cf-a193ddf05cf4" />
 
 ### *Prueba 3*
 <img width="376" alt="untitled7" src="https://github.com/user-attachments/assets/c3c50f5a-953f-46da-8ee6-e2e43e22eb76" />
-<img width="376"  alt="untitled7" src="https://github.com/user-attachments/assets/fdcd2db2-e202-473b-abcc-d04397101d1c" />
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/097a60da-6850-483b-861c-7376973107c1" />
+
 
 
 
