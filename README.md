@@ -1,11 +1,17 @@
 # Proyecto-Integrador-NAV - Grupo 4
 Repositorio proyecto integrador por William Andrade, Glen Guerrero y Yeison Jimenez
 
-## *Parte 1* - Algortimo de localización con filtro EKF
-Se ha implementado a la función analyze_bag un filtro EKF aplicado a la odometría obtenida a través del Rosbag; AMCL ya estaba integrado en el código.
+## *ACTUALIZACIÓN - Parte 3* - Algortimo de planificación de trayectoria
+Antes de realizar pruebas del mapa de ocupación obtenido por SLAM, se ha decido probar con un mapa complejo del toolbox de Matlab para inicialmente verificar el funcionamiento de 2 de los algoritmos de planificación trabajado en el curso, El primero correspondiente basado en planificación por rejilla **(A*)** y el otro por muestreo ** (RRT*)**.
 
-<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/a80413e9-d241-4ef8-8224-d437ac9c6d69" />
-<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/841d2fcb-6286-4f42-900a-904b4ec88a89" />
+Para ambos código ser programo una punto inicial y un punto objetivo  o final; Dentro de la simulación se programó la posibilidad de aparecer obstaculos de manera aleatoria, teniendo en cuenta la complejidad del mapa solamente se da la orden de que aparezca un obstaculo al azar.
+### *A** Trayectoria 1*
+< img width="376" alt="untitled1" src="https://github.com/user-attachments/assets/61491e76-8951-4e99-829f-70823b108703"/>
+### *A** Trayectoria 2*
+< img width="376" alt="untitled1" src="https://github.com/user-attachments/assets/c9096b0c-7556-4c9d-8b7b-e6d825750cea"/>
+
+
+
 
 ## *Parte 2* - Algoritmo de LidarSlam y mapa de ocupación
 Se ha implementado un algoritmo de LidarSlam en el cual se consideran diferentes variables
@@ -31,7 +37,11 @@ Como rango inicial se tomo aproximadamente desde el escaneo 15 que es el momento
 <img width="350" alt="image" src="https://github.com/user-attachments/assets/097a60da-6850-483b-861c-7376973107c1" />
 
 
+## *Parte 1* - Algortimo de localización con filtro EKF
+Se ha implementado a la función analyze_bag un filtro EKF aplicado a la odometría obtenida a través del Rosbag; AMCL ya estaba integrado en el código.
 
+<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/a80413e9-d241-4ef8-8224-d437ac9c6d69" />
+<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/841d2fcb-6286-4f42-900a-904b4ec88a89" />
 
 
 
