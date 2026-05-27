@@ -1,5 +1,14 @@
 # Proyecto-Integrador-NAV - Grupo 4
 Repositorio proyecto integrador por William Andrade, Glen Guerrero y Yeison Jimenez
+## *ACTUALIZACIÓN - ENTREGA FINAL* 
+### *SLAM*
+Esta vez ya se logró obtener el mapa en el que el robot hizo el escaneo, se realizó la construcción de un mapa de ocupación a partir de las lecturas de los sensores de odometría y lidar(/scan). El mapa se representa en log-odds (l = log(p/(1-p))). Inicialmente se encontró que se requería aplicar un offset y una rotación para lograr alineaar la trayectoria con el mapa, igualmente una vez obtenido el mapa se procesa filtrando y modificando para binarizarlo.
+| Mapa EKF-SLAM |  Mapa Offset | Mapa ocupación | Mapa procesado 
+| :---: | :---: | :---: | :---: |
+|<img width="180" src="https://github.com/user-attachments/assets/c086bb65-e7a3-460b-89c4-024ad623bee6" />|<img width="180" src="https://github.com/user-attachments/assets/10da1ef0-581c-451c-99f5-e5f936559df3" />|<img width="150" src="https://github.com/user-attachments/assets/6e97d8b5-4b14-444f-afed-45f6e4bd451c" />|<img width="153" src="https://github.com/user-attachments/assets/d767b7bf-fc1e-443c-a3f8-f88645941418" />
+
+
+
 
 ## *ACTUALIZACIÓN - Parte 3* - Algortimo de planificación de trayectoria
 Antes de realizar pruebas del mapa de ocupación obtenido por SLAM, se ha decido probar con un mapa complejo del toolbox de Matlab para inicialmente verificar el funcionamiento de 2 de los algoritmos de planificación trabajado en el curso, El primero correspondiente basado en planificación por rejilla **(A*)** y el otro por muestreo **(RRT*)**.
