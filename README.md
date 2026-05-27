@@ -7,7 +7,12 @@ Esta vez ya se logró obtener el mapa en el que el robot hizo el escaneo, se rea
 | :---: | :---: | :---: | :---: |
 |<img width="180" src="https://github.com/user-attachments/assets/c086bb65-e7a3-460b-89c4-024ad623bee6" />|<img width="180" src="https://github.com/user-attachments/assets/10da1ef0-581c-451c-99f5-e5f936559df3" />|<img width="150" src="https://github.com/user-attachments/assets/6e97d8b5-4b14-444f-afed-45f6e4bd451c" />|<img width="153" src="https://github.com/user-attachments/assets/d767b7bf-fc1e-443c-a3f8-f88645941418" />
 
+### *PLANIFICACIÓN*
 
+Se utilizó los mismos códigos de la anterior entrega, solamente se actualizó el mapa de ocupación del entorno ya capturado por el robot mediante el rosbag.
+| A* |  RRT*  
+| :---: | :---: |
+|<img width="180" src="https://github.com/user-attachments/assets/36cccbb5-2551-4373-ab67-63f17312ef14" />|<img width="180" src="https://github.com/user-attachments/assets/eee254ed-d1e1-4956-b76f-d6030beb6281" />
 
 
 ## *ACTUALIZACIÓN - Parte 3* - Algortimo de planificación de trayectoria
