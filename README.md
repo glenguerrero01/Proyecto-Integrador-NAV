@@ -14,6 +14,13 @@ Se utilizó los mismos códigos de la anterior entrega, solamente se actualizó 
 | :---: | :---: |
 |<img width="180" src="https://github.com/user-attachments/assets/36cccbb5-2551-4373-ab67-63f17312ef14" />|<img width="180" src="https://github.com/user-attachments/assets/eee254ed-d1e1-4956-b76f-d6030beb6281" />
 
+### *CONTROL PURE PURSUIT*
+Para este control no se realizaron pruebas de ambos controladores, sino que directamente se decidió implementar el controlador Pure Pursuit por su facilidad de programación, buena respuesta y fácil ajuste. Para poder usar el controlador, es importante entender el funcionamiento del planificador, el cual es por coordenadas en rejilla, pero el controlador Pure Pursuit requiere waypoints. Se realizaron varias pruebas diferentes del valor de Ld; en la tabla 5 se presenta las 5 más relevantes. Se realiza la impresión de RMS del error lateral (Error lateral medio) y Error lateral máximo. Para la velocidad angular, velocidad lineal y error lateral se realiza las gráficas respectivas.  
+| Ld | 0.25 | 0.3 | 0.4 | 0.5 | 0.8 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **RMS error lateral [m]** | 0.2311 | 0.2137 | 0.2125 | 0.2128 | 0.2414 |
+| **Error lateral MAX [m]** | 0.1045 | 0.1044 | 0.1060 | 0.1086 | 0.1189 |
+<img width="300" src="https://github.com/user-attachments/assets/fd3031d6-6961-4c5f-a9d5-adba8e9256e2" />
 
 ## *ACTUALIZACIÓN - Parte 3* - Algortimo de planificación de trayectoria
 Antes de realizar pruebas del mapa de ocupación obtenido por SLAM, se ha decido probar con un mapa complejo del toolbox de Matlab para inicialmente verificar el funcionamiento de 2 de los algoritmos de planificación trabajado en el curso, El primero correspondiente basado en planificación por rejilla **(A*)** y el otro por muestreo **(RRT*)**.
@@ -58,8 +65,8 @@ Como rango inicial se tomo aproximadamente desde el escaneo 15 que es el momento
 ## *Parte 1* - Algortimo de localización con filtro EKF
 Se ha implementado a la función analyze_bag un filtro EKF aplicado a la odometría obtenida a través del Rosbag; AMCL ya estaba integrado en el código.
 
-<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/a80413e9-d241-4ef8-8224-d437ac9c6d69" />
-<img width="425" height="516" alt="image" src="https://github.com/user-attachments/assets/841d2fcb-6286-4f42-900a-904b4ec88a89" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/a80413e9-d241-4ef8-8224-d437ac9c6d69" />
+<img width="400" height="350" alt="image" src="https://github.com/user-attachments/assets/841d2fcb-6286-4f42-900a-904b4ec88a89" />
 
 
 
