@@ -1,5 +1,5 @@
 # Proyecto-Integrador-NAV - Grupo 4
-Repositorio proyecto integrador por William Andrade, Glen Guerrero y Yeison Jimenez
+Repositorio proyecto integrador por William Andrade, Glen Guerrero
 ## *ACTUALIZACIÓN - ENTREGA FINAL* 
 ### *SLAM*
 Esta vez ya se logró obtener el mapa en el que el robot hizo el escaneo, se realizó la construcción de un mapa de ocupación a partir de las lecturas de los sensores de odometría y lidar(/scan). El mapa se representa en log-odds (l = log(p/(1-p))). Inicialmente se encontró que se requería aplicar un offset y una rotación para lograr alineaar la trayectoria con el mapa, igualmente una vez obtenido el mapa se procesa filtrando y modificando para binarizarlo.
